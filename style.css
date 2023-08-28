@@ -118,9 +118,15 @@ footer span{
         .nav-slider, .mob-nav{
            display: none;
         }
+        .banner .bg-img{
+            height: 20vh;
+        }
     }
 
 @media screen and (max-width: 480px){
+    .banner .bg-img{
+        height: 15vh;
+    }
     .nav-slider.open{
         display: block;
         position: absolute;
